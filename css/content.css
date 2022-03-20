@@ -1,0 +1,84 @@
+#content {
+  position: relative;
+  margin: 0 auto;
+  width: 942px;
+  transition: ease 0.3s;
+}
+
+@media (min-width: 942px) {
+  #content {
+    width: auto;
+  }
+}
+
+.linha {
+  margin: 70px 152px 0px 152px;
+}
+
+.linhaHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.linhaHeader > h2 {
+  margin: 0;
+}
+
+.verTudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.verTudo > img {
+  height: 16px;
+  width: 16px;
+}
+
+.verTudo > h4 {
+  margin: 0;
+  margin-right: 10px;
+  color: #2a7ae4;
+}
+
+/* .containerProdutos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+  flex-wrap: wrap;
+} */
+
+.containerProdutos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(174px, 174px));
+  grid-gap: 1em;
+}
+
+.produtoInfo > h4 {
+  margin: 0;
+  font-size: 14px;
+  margin-top: 7px;
+  font-weight: 500;
+}
+
+.produtoInfo > h4.produtoValor {
+  font-weight: 700;
+}
+
+.produtoInfo > h4.produtoDetalhes {
+  color: #2a7ae4;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.produto > img {
+  width: 176px;
+  height: 174px;
+  object-fit: cover;
+  cursor: pointer;
+}

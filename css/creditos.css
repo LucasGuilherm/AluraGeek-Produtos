@@ -1,0 +1,26 @@
+#creditosSection {
+  margin: 0 auto;
+  width: 942px;
+  position: relative;
+}
+
+@media (min-width: 942px) {
+  #creditosSection {
+    width: auto;
+  }
+}
+
+.containerCreditos {
+  height: 102px;
+  max-height: 102px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerCreditos > h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
